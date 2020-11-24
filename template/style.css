@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    background: #E5E5E5;
+    font-family: Nunito;
+}
+
+#pageBackground{
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 390px;
+    height: 800px;
+    border: 1px solid transparent;
+    border-bottom-left-radius:15% ;
+    background-color: #F9BDBD;
+}
+#pageBackground img{
+    width: 600px;
+    bottom: 5%;
+    right: 0;
+    position: absolute;
+}
+/*Header*/
+header div{
+    margin-top: 23px;
+    margin-left: 135px;
+    display: inline-block;
+}
+header div img{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 15px;
+}
+header div h3{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Nunito;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+}
+header nav{
+    margin-left: 27%;
+    display: inline-block;
+}
+header nav a {
+    margin-right: 48px;
+    text-decoration: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.75);
+}
+header nav button {
+    border:2px solid #3E3F43;
+    padding: 15px;
+    border-radius: 15px;
+    width: 120px;
+    color: #3E3F43;
+    text-transform: uppercase;
+    font-family: 'Nunito';
+    background-color: transparent;
+    transition-duration: .3s;
+}
+header nav button:hover {
+    box-shadow: 0px 0px 5px 0.5px black ;
+    text-shadow: 0px 0px 0px black ;
+    transition-duration: .3s;
+}
+header nav .active {
+    color: #DAA520;
+}
+/*End Header*/
+/* Home */
+    #sectionHome p{
+        position: relative;
+        width: 504px;
+        height: 98px;
+        left: 180px;
+        top: 85px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 49px;
+    }
+    #sectionHome h1{
+        position: relative;
+        font-style: normal;
+        font-weight: bold;
+        width: 504px;
+        top: 15px;
+        left: 172px;
+        font-size: 72px;
+        line-height: 98px;
+    }
+    #sectionHome button{
+
+    }
+/* End Home */
