@@ -2,6 +2,7 @@
 body{
     background: #E5E5E5;
     font-family: Nunito;
+    margin: 0%;
 }
 
 #pageBackground{
@@ -23,8 +24,8 @@ body{
 }
 /*Header*/
 header div{
-    margin-top: 23px;
-    margin-left: 135px;
+    position: absolute;
+    left: 4%;
     display: inline-block;
 }
 header div img{
@@ -45,7 +46,9 @@ header div h3{
     color: #3E3F43;
 }
 header nav{
-    margin-left: 27%;
+    top: 7%;
+    position: absolute;
+    right: 4%;
     display: inline-block;
 }
 header nav a {
@@ -70,8 +73,8 @@ header nav button {
     transition-duration: .3s;
 }
 header nav button:hover {
-    box-shadow: 0px 0px 5px 0.5px black ;
-    text-shadow: 0px 0px 0px black ;
+    background-color: #3E3F43 ;
+    color: white;
     transition-duration: .3s;
 }
 header nav .active {
@@ -79,12 +82,15 @@ header nav .active {
 }
 /*End Header*/
 /* Home */
-    #sectionHome p{
+    #sectionHome{
         position: relative;
         width: 504px;
-        height: 98px;
-        left: 180px;
-        top: 85px;
+        left: 7%;
+        top: 150px;
+    }
+    #sectionHome p{
+        position: relative;
+        color: #313235;
         font-family: Nunito;
         font-style: normal;
         font-weight: normal;
@@ -95,13 +101,107 @@ header nav .active {
         position: relative;
         font-style: normal;
         font-weight: bold;
-        width: 504px;
-        top: 15px;
-        left: 172px;
+        color: #313235;
         font-size: 72px;
         line-height: 98px;
     }
     #sectionHome button{
-
+        position: absolute;
+        width: 175px;
+        height: 50px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        color: white;
+        background: #DAA520;
+        border: #DAA520;
+        border-radius: 4px;
     }
 /* End Home */
+    #sectionAbout{
+        margin-left: 8%;
+        position: relative;
+        margin-top: 35%;
+    }
+    #sectionAbout img{
+        display: inline-block;
+        margin-right: 15px;
+    }
+    #sectionAbout h2{
+        display: inline-block;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 49px;
+        color: #3E3F43;
+    }
+    #sectionAbout hr{
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        border: 1px solid black;
+        width: 25%;
+    }
+    #sectionAbout h1{
+        text-transform: uppercase;
+        display: inline-block;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 98px;
+        color: rgba(34, 34, 34, 0.1);
+    }
+    #backgroundAbout{
+        position: relative;
+        z-index: -1;
+        display: inline;
+        width: 278px;
+        height: 378px;
+        border-top-right-radius: 35%;
+        border-bottom-left-radius: 35%;
+        background: #F7DEA6;
+    }
+    #backgroundAbout img{
+        position: relative;
+        top: 25%;
+    }
+    #sectionAbout .aboutText{
+        display: inline-block;
+        position:absolute;
+        width: 448px;
+        right: 13%;
+
+        font-family: Nunito;
+        font-style: normal;
+        font-size: 36px;
+        line-height: 49px;
+        color:#3E3F43;
+    }
+
+    #sectionAbout .aboutText span{
+        position: relative;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: black;
+    }
+    #sectionAbout .aboutTextTop{
+        width: 648px;
+        top: 150px;
+        position: relative;
+        font-family: Nunito;
+        font-style: normal;
+        font-size: 36px;
+        color: #000000;
+    }
+    #sectionAbout .aboutTextTop span{
+        font-family: Nunito;
+        font-style: normal;
+        font-size: 24px;
+    }
